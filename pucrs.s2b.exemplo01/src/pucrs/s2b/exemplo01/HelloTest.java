@@ -20,5 +20,11 @@ public class HelloTest {
 		assertEquals(0, Hello.somar(0, 0));
 		
 	}
+	@Test
+public void testSomar3() {
+		
+		assertEquals(1, Hello.somar(0, 1));
+		
+	}
 
 }
